@@ -2235,6 +2235,7 @@ footer {
 
 /* sell trade page css ends here */
 
+<<<<<<< Updated upstream
 /* reviews page css start here */
 
 .reviews-container {
@@ -2266,6 +2267,35 @@ footer {
 
 .user-name {
     font-family: 'Urbane-Semibold';
+=======
+/* contact page css starts here */
+.contactHeaderSection {
+    position: relative;
+    padding-top: 41%;
+}
+
+.contactHeaderSection img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contactHeaderContent {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 5% 0;
+}
+
+.contactHeaderTag {
+    color: var(--white-color);
+    font-family: Urbane;
+>>>>>>> Stashed changes
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -2274,6 +2304,7 @@ footer {
     text-transform: uppercase;
 }
 
+<<<<<<< Updated upstream
 .reviews-qoutation-icon {
     width: 40px;
     height: 40px;
@@ -2297,10 +2328,34 @@ footer {
 .coverage-list li {
     list-style: none;
     font-family: 'Urbane-Light';
+=======
+.contactHeaderHeading {
+    color: var(--white-color);
+    font-family: "Zilla Slab";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 72px;
+}
+
+.whiteBoldPara {
+    color: var(--white-color);
+    font-family: Urbane;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.regularWhitePara {
+    color: var(--white-color);
+    font-family: Urbane;
+>>>>>>> Stashed changes
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
     line-height: 24px;
+<<<<<<< Updated upstream
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2312,6 +2367,108 @@ footer {
 
 .marine-subtitle {
     font-family: 'Urbane-Semibold';
+=======
+}
+
+.contactHeaderTextSection {
+    max-width: 680px;
+}
+
+.contactHeaderFormSection {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    padding: 60px 80px;
+}
+
+.contactAddressSection {
+    margin: 64px 0 120px 0;
+}
+
+.contactLocationHeading {
+    color: var(--black-color);
+    font-family: Urbane;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.contactLocationsHeadingWrap {
+    margin-bottom: 80px;
+}
+
+.contactLocationCard {
+    padding: 0 28px;
+    margin-bottom: 40px;
+}
+
+.contactLocationImageWrap {
+    position: relative;
+    padding-top: 50%;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.contactLocationImageWrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contactLocationsHeadingWrap {
+    padding-left: 40px;
+}
+
+.contactLocationTextWrap {
+    margin-top: 24px;
+}
+
+.contactLocationTitle {
+    color: var(--black-color);
+    font-family: Urbane;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.contactLocationPara {
+    color: var(--black-color);
+    font-family: Urbane;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.contactLocationPhone {
+    color: var(--black-color);
+    font-family: Urbane;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.contactLocationPhone:hover {
+    color: var(--black-color);
+}
+
+.serviceHoursHeading {
+    color: var(--Black, #000);
+    font-family: Urbane;
+>>>>>>> Stashed changes
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -2320,6 +2477,7 @@ footer {
     text-transform: uppercase;
 }
 
+<<<<<<< Updated upstream
 .coverage-box {
     margin-bottom: 80px;
 }
@@ -2327,3 +2485,177 @@ footer {
 .positioned-banner {
     object-position: 50% 38%;
 }
+=======
+/* contact page css ends here */
+>>>>>>> Stashed changes
+
+
+/* contact page css starts here */
+.contactHeaderSection {
+    position: relative;
+    padding-top: 41%;
+}
+
+.contactHeaderSection img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contactHeaderContent {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 5% 0;
+}
+
+.contactHeaderTag {
+    color: var(--white-color);
+    font-family: Urbane;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.contactHeaderHeading {
+    color: var(--white-color);
+    font-family: "Zilla Slab";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 72px;
+}
+
+.whiteBoldPara {
+    color: var(--white-color);
+    font-family: Urbane;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.regularWhitePara {
+    color: var(--white-color);
+    font-family: Urbane;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.contactHeaderTextSection {
+    max-width: 680px;
+}
+
+.contactHeaderFormSection {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    padding: 60px 80px;
+}
+
+.contactAddressSection {
+    margin: 64px 0 120px 0;
+}
+
+.contactLocationHeading {
+    color: var(--black-color);
+    font-family: Urbane;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.contactLocationsHeadingWrap {
+    margin-bottom: 80px;
+}
+
+.contactLocationCard {
+    padding: 0 28px;
+    margin-bottom: 40px;
+}
+
+.contactLocationImageWrap {
+    position: relative;
+    padding-top: 50%;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.contactLocationImageWrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contactLocationsHeadingWrap {
+    padding-left: 40px;
+}
+
+.contactLocationTextWrap {
+    margin-top: 24px;
+}
+
+.contactLocationTitle {
+    color: var(--black-color);
+    font-family: Urbane;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.contactLocationPara {
+    color: var(--black-color);
+    font-family: Urbane;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.contactLocationPhone {
+    color: var(--black-color);
+    font-family: Urbane;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.contactLocationPhone:hover {
+    color: var(--black-color);
+}
+
+.serviceHoursHeading {
+    color: var(--Black, #000);
+    font-family: Urbane;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+/* contact page css ends here */
