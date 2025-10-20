@@ -2235,7 +2235,7 @@ footer {
 
 /* sell trade page css ends here */
 
-<<<<<<< Updated upstream
+
 /* reviews page css start here */
 
 .reviews-container {
@@ -2267,7 +2267,8 @@ footer {
 
 .user-name {
     font-family: 'Urbane-Semibold';
-=======
+}
+
 /* contact page css starts here */
 .contactHeaderSection {
     position: relative;
@@ -2295,7 +2296,6 @@ footer {
 .contactHeaderTag {
     color: var(--white-color);
     font-family: Urbane;
->>>>>>> Stashed changes
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -2304,7 +2304,6 @@ footer {
     text-transform: uppercase;
 }
 
-<<<<<<< Updated upstream
 .reviews-qoutation-icon {
     width: 40px;
     height: 40px;
@@ -2328,7 +2327,8 @@ footer {
 .coverage-list li {
     list-style: none;
     font-family: 'Urbane-Light';
-=======
+
+}
 .contactHeaderHeading {
     color: var(--white-color);
     font-family: "Zilla Slab";
@@ -2350,12 +2350,10 @@ footer {
 .regularWhitePara {
     color: var(--white-color);
     font-family: Urbane;
->>>>>>> Stashed changes
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
     line-height: 24px;
-<<<<<<< Updated upstream
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2367,7 +2365,6 @@ footer {
 
 .marine-subtitle {
     font-family: 'Urbane-Semibold';
-=======
 }
 
 .contactHeaderTextSection {
@@ -2468,7 +2465,6 @@ footer {
 .serviceHoursHeading {
     color: var(--Black, #000);
     font-family: Urbane;
->>>>>>> Stashed changes
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -2477,7 +2473,6 @@ footer {
     text-transform: uppercase;
 }
 
-<<<<<<< Updated upstream
 .coverage-box {
     margin-bottom: 80px;
 }
@@ -2485,9 +2480,7 @@ footer {
 .positioned-banner {
     object-position: 50% 38%;
 }
-=======
 /* contact page css ends here */
->>>>>>> Stashed changes
 
 
 /* contact page css starts here */
