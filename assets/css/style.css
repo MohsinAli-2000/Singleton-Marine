@@ -2218,11 +2218,11 @@ footer {
     object-fit: cover;
 }
 
-.promiseTextWrap   {
+.promiseTextWrap {
     margin: 0 20px;
 }
 
-.promiseTextWrap   {
+.promiseTextWrap {
     height: 100%;
     display: flex;
     align-items: center;
@@ -2237,7 +2237,7 @@ footer {
     line-height: 24px;
 }
 
-.promiseTextInnerWrap  {
+.promiseTextInnerWrap {
     max-width: 400px;
 }
 
@@ -2494,12 +2494,14 @@ footer {
     background: var(--black-color);
     padding: 28px 50px;
 }
+
 .parts-container-fluid {
     width: calc(100% - 9%);
     margin: 0 auto;
     padding-top: 64px;
     padding-bottom: 64px;
 }
+
 .parts-featured-content {
     display: flex;
     flex-direction: column;
@@ -2509,6 +2511,7 @@ footer {
     margin-right: 120px;
     padding-top: 68px
 }
+
 .parts-featured-logo {
     display: flex;
     justify-content: flex-start;
@@ -2518,28 +2521,28 @@ footer {
 }
 
 /* strorage page css starts here */
-.storageHeroSection{
+.storageHeroSection {
     margin: 80px 0;
 }
 
-.storageHerTextWrap{
+.storageHerTextWrap {
     max-width: 900px;
     text-align: center;
     margin: 0 auto;
 }
 
-.dockageFacilityCard{
+.dockageFacilityCard {
     padding: 0 20px;
 }
 
-.dockingFacilityImageWrap{
+.dockingFacilityImageWrap {
     position: relative;
     padding-top: 57%;
     border-radius: 16px;
     overflow: hidden;
 }
 
-.dockingFacilityImageWrap img{
+.dockingFacilityImageWrap img {
     position: absolute;
     left: 0;
     top: 0;
@@ -2548,8 +2551,30 @@ footer {
     object-fit: cover;
 }
 
-.dockingFacilityTextWrap{
+.dockingFacilityTextWrap {
     margin-top: 16px;
+}
+
+.ourMissionTextWrap {
+    max-width: 440px;
+}
+
+.ourMissionCard {
+    display: flex;
+    gap: 24px;
+}
+
+.ourMissionCardTitle {
+    color: var(--black-color);
+    font-family: Urbane;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.headingWrap{
+    margin-bottom: 40px;
 }
 
 /* strorage page css ends here */
