@@ -79,6 +79,19 @@ a:hover {
 }
 
 .my-30 {
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.my-30 {
     margin-bottom: 30px;
     margin-top: 30px;
 }
@@ -175,6 +188,182 @@ ul {
     font-style: normal;
     font-weight: 300;
     line-height: 40px;
+}
+
+.gallery-carousel .item {
+    position: relative;
+    padding-top: 67%;
+}
+
+.gallery-carousel .item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.Listings-title-cta {
+    position: relative;
+    max-width: calc(100% - 5%);
+    margin: 0 auto;
+}
+
+.listing-cta {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.Listings-title-cta span.fa {
+    padding-left: 5px;
+}
+
+.listing-cta {
+    color: var(--black-color);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-family: "Zilla Slab";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.listing-cta:hover {
+    color: var(--black-color);
+}
+
+.common-title-box {
+    padding-top: 74px;
+    padding-bottom: 56px;
+}
+
+.dark-line-separator {
+    background: var(--black-color);
+    margin: 0;
+}
+
+/* inventory card css start here */
+
+.inventory-container {
+    width: calc(100% - 60px);
+    margin: 0 auto;
+}
+
+.inventory-card {
+    width: calc(100% / 3);
+    padding: 20px 28px;
+}
+
+.inventory-card a {
+    color: inherit;
+}
+
+.inventory-card-img {
+    position: relative;
+    padding-top: 66.3%;
+}
+
+.inventory-card-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.inventory-card-body {}
+
+.inventory-card-title {
+    font-family: 'Urbane-Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.inventory-card-title-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inventory-card-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.inventory-card-body {
+    padding: 16px 0;
+}
+
+.inventory-cond-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+}
+
+.inventory-cond-list .cond-list-item {
+    color: var(--black-color);
+    list-style: none;
+    position: relative;
+    padding-right: 30px;
+    font-family: 'Urbane-Light';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.cond-list-item+.cond-list-item::after {
+    position: absolute;
+    content: "";
+    background-color: var(--black-color);
+    top: 50%;
+    left: -15px;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 14px;
+}
+
+.inventory-card-bottom-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.monthly-price-box {
+    color: var(--black-color);
+    list-style: none;
+    position: relative;
+    padding-right: 0;
+    font-family: 'Urbane-Light';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.length-box {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 16px 0;
+    background: var(--white-color);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
 }
 
 /* Common css end here  */
@@ -1782,3 +1971,96 @@ footer {
 }
 
 /* service page css ends here */
+
+/* brand page css start here */
+
+.common-header {
+    position: relative;
+    padding-top: 31%;
+}
+
+.common-header img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.brand-descripotion {
+    max-width: calc(100% - 48%);
+    margin: 0 auto;
+    padding: 64px 20px 72px 20px;
+    text-align: center;
+}
+
+.brand-logo {
+    max-width: 300px;
+    height: 100%;
+    margin: 0 auto 64px auto;
+}
+
+.brand-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.faq-container {
+    width: calc(100% - 10%);
+    margin: 0 auto;
+}
+
+.faq-box {
+    display: flex;
+}
+
+.faq-col {
+    width: 50%;
+}
+
+.faq-content {
+    max-width: 65%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.faq-accordion {
+    width: 70%;
+    margin: auto 0 0 0;
+}
+
+.custom-accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+    border-bottom: 1px solid #3a3d47;
+    cursor: pointer;
+}
+
+.accordion-title {
+    font-family: 'Urbane-Semibold';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.custom-accordion-header span {
+    font-size: 18px;
+    color: var(--black-color);
+}
+
+.custom-accordion-body {
+    padding: 20px 0 40px 0;
+    display: none;
+}
+
+.custom-accordion-body.content-show {
+    display: block !important;
+}
