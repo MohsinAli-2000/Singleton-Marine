@@ -378,6 +378,43 @@ ul {
     gap: 4px;
 }
 
+.banner-content {
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    padding-left: 200px;
+}
+
+.banner-title {
+    font-family: "Zilla Slab";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 72px;
+    color: var(--white-color);
+    text-align: left;
+}
+
+.form-sec {
+    position: relative;
+}
+
+.form-box {
+    max-width: 600px;
+    width: 100%;
+    margin: 80px auto 100px auto;
+}
+
+.scroll-down {
+    position: absolute;
+    top: -130px;
+    visibility: hidden;
+}
+
+.form-header {
+    text-align: center;
+}
+
 /* Common css end here  */
 
 
@@ -1036,7 +1073,7 @@ footer {
     padding-left: 200px;
 }
 
-.banner-title {
+.home-banner-title {
     font-family: "Zilla Slab";
     font-size: 64px;
     font-style: normal;
@@ -1996,7 +2033,7 @@ footer {
     padding-top: 31%;
 }
 
-.common-header img {
+.common-header .banner-img {
     position: absolute;
     top: 0;
     left: 0;
@@ -2173,11 +2210,11 @@ footer {
     object-fit: cover;
 }
 
-.promiseTextWrap{
+.promiseTextWrap {
     margin: 0 20px;
 }
 
-.promiseTextWrap{
+.promiseTextWrap {
     height: 100%;
     display: flex;
     align-items: center;
@@ -2192,7 +2229,7 @@ footer {
     line-height: 24px;
 }
 
-.promiseTextInnerWrap{
+.promiseTextInnerWrap {
     max-width: 400px;
 }
 
@@ -2245,4 +2282,48 @@ footer {
 .reviews-qoutation-icon img {
     width: 100%;
     height: 100%;
+}
+
+
+/* marine insurance page css start here */
+
+.coverage-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.coverage-list li {
+    list-style: none;
+    font-family: 'Urbane-Light';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coverage-list li img {
+    padding-right: 10px;
+}
+
+.marine-subtitle {
+    font-family: 'Urbane-Semibold';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.coverage-box {
+    margin-bottom: 80px;
+}
+
+.positioned-banner {
+    object-position: 50% 38%;
 }
