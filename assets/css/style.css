@@ -1950,23 +1950,23 @@ footer {
     overflow: hidden;
 }
 
-.partsDeptImageWrap img{
+.partsDeptImageWrap img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.paraWrapper{
+.paraWrapper {
     margin: 40px 0;
 }
 
-.partsDeptTextWrap{
+.partsDeptTextWrap {
     height: 100%;
     display: flex;
     align-items: center;
 }
 
-.partsDeptTextInnerWrap{
+.partsDeptTextInnerWrap {
     max-width: 900px;
 }
 
@@ -2064,3 +2064,119 @@ footer {
 .custom-accordion-body.content-show {
     display: block !important;
 }
+
+/* sell trade page css starts here */
+.sellTradeHeroSection {
+    margin: 64px 0;
+}
+
+.sellTradeStepCard {
+    border-radius: 16px;
+    border: 1px solid var(--black-color);
+    padding: 34px 48px 50px 34px;
+    margin: 0 28px;
+    height: 100%;
+}
+
+.sellTradeStepNumber {
+    color: var(--gold-color);
+    font-family: Urbane;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 100px;
+}
+
+.sellTradeCardTitle {
+    color: var(--black-color);
+    font-family: Urbane;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.whySellWithUsSection {
+    margin: 120px 0;
+}
+
+.whySellSectionHeaderWrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whySellSectionHeaderInnerWrap {
+    max-width: 353px;
+}
+
+.whySellWithUsItem {
+    margin-bottom: 68px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.whySellTextWrap {
+    max-width: 200px;
+}
+
+.whySellText {
+    color: var(--black-color);
+    font-family: Urbane;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.promiseSection {
+    margin-bottom: 60px;
+}
+
+.promiseHeadingWrap {
+    margin-bottom: 64px;
+}
+
+.promiseImageWrap {
+    position: relative;
+    padding-top: 63%;
+    overflow: hidden;
+    border-radius: 16px;
+    margin: 0 20px;
+}
+
+.promiseImageWrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.promiseTextWrap{
+    margin: 0 20px;
+}
+
+.promiseTextWrap{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.promiseCardTitle {
+    color: var(--black-color);
+    font-family: Urbane;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.promiseTextInnerWrap{
+    max-width: 400px;
+}
+
+/* sell trade page css ends here */
