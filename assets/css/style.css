@@ -1481,6 +1481,8 @@ footer {
     position: relative;
     padding-top: 57%;
     max-width: 840px;
+    border-radius: 16px;
+    overflow: hidden;
 }
 
 .serviceHeroImageWrap img {
@@ -1521,6 +1523,262 @@ footer {
     font-style: normal;
     font-weight: 300;
     line-height: 56px;
+}
+
+.awardWiningHeadingWrap {
+    margin: 24px 0 40px 0;
+}
+
+.boldBlackPara {
+    color: var(--black-color);
+    font-family: Urbane;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.regularBlackPara {
+    color: var(--black-color);
+    font-family: Urbane;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.underlineParaText {
+    color: var(--black-color);
+    font-family: Urbane;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.btnWrap {
+    margin-top: 40px;
+}
+
+.popularHeadingWrap {
+    margin: 24px 0 56px 0;
+}
+
+.topServicesCardWrap {
+    padding: 0 28px;
+}
+
+.topServicesCardImageWrap {
+    position: relative;
+    padding-top: 75%;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.topServicesCardImageWrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.topServicesTitleWrap {
+    position: absolute;
+    left: 5%;
+    bottom: 2%;
+}
+
+.topServicesTitle {
+    color: var(--white-color);
+    font-family: Urbane;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.topServiceTextWrap {
+    margin-top: 16px;
+}
+
+.topServicesBoldText {
+    color: var(--black-color);
+    font-family: Urbane;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.topServicesParaWrap {
+    margin-top: 12px;
+}
+
+.regularBlackPara {
+    color: var(--Black, #000);
+    font-family: Urbane;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.tabsWrapper {
+    margin: 40px 0px;
+}
+
+.infoTab {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    border-radius: 2px;
+    border: 1px solid #D9D9D9;
+    margin-bottom: 20px;
+    background: #FFF;
+    cursor: pointer;
+}
+
+.infoTabName h4 {
+    color: var(--black-color);
+    font-family: Urbane;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.tabsContent {
+    padding: 40px 40px 79px 40px;
+    border-radius: 16px;
+    border: 1px solid var(--black-color);
+    background: var(--white-color);
+}
+
+.tabsDetailsHeader {
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.tabsDetails {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.tabsDetailsImg {
+    margin-top: 40px;
+}
+
+.tabsContentImgContainer img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.tabsContentLogoContainer {
+    max-width: 200px;
+}
+
+.tabsContentLogoContainer img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.tabsDetails {
+    display: none;
+}
+
+.tabsDetailsContent ul {
+    padding-left: 30px;
+}
+
+.tabsNote {
+    margin-top: 40px;
+}
+
+.tabsNote p {
+    color: #231F20;
+    font-family: "Myriad Pro Regular";
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.tabsSec {
+    margin: 60px auto;
+    max-width: 1500px;
+}
+
+.tabsDetailImageWrap {
+    position: relative;
+    padding-top: 44%;
+    margin-top: 20px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.tabsDetailImageWrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.smallHeading {
+    color: var(--black-color0);
+    font-family: Urbane;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.secondaryHeading {
+    color: var(--black-color);
+    font-family: Urbane;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.partsDeptImageWrap {
+    border-radius: 16px;
+    max-width: 480px;
+    overflow: hidden;
+}
+
+.partsDeptImageWrap img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.paraWrapper{
+    margin: 40px 0;
+}
+
+.partsDeptTextWrap{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.partsDeptTextInnerWrap{
+    max-width: 900px;
 }
 
 /* service page css ends here */

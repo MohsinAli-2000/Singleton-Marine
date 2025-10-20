@@ -69,4 +69,36 @@ $(document).ready(function () {
     $('.right-arrow').click(function () {
         owl.trigger('next.owl.carousel');
     });
+
+        // ================================++++++++++++++++++++====================
+    // service page code starts here
+    const activeBorder = "1px solid #1C2B4A";
+    const inactiveBorder = "1px solid #D9D9D9";
+    const activeColor = "#1C2B4A";
+    const inactiveColor = "#000";
+    const activeIcon = "/assets/images/service/next-black-arrow.webp";
+    const inactiveIcon = "/assets/images/service/next-black-arrow.webp";
+
+    const tabsDetails = document.querySelectorAll(".tabsDetails");
+    const infoTabs = document.querySelectorAll(".infoTab");
+    const infoTabTexts = document.querySelectorAll(".infoTabName h4");
+    const infoTabIcons = document.querySelectorAll(".infoTabIcon img");
+
+    function showTab(index) {
+        tabsDetails.forEach((d, i) => d.style.display = i === index ? "block" : "none");
+        infoTabs.forEach((t, i) => t.style.border = i === index ? activeBorder : inactiveBorder);
+        infoTabTexts.forEach((txt, i) => txt.style.color = i === index ? activeColor : inactiveColor);
+        infoTabIcons.forEach((icon, i) => icon.src = i === index ? activeIcon : inactiveIcon);
+
+        const offsetTop = tabsDetails[index].getBoundingClientRect().top + window.scrollY - 200;
+        window.scrollTo({ top: offsetTop, behavior: "smooth" });
+    }
+
+    // init first tab
+    if (infoTabs.length) showTab(0);
+
+    // add click events
+    infoTabs.forEach((tab, i) => tab.addEventListener("click", () => showTab(i)));
+    // service page code ends here
+    // ================================++++++++++++++++++++====================
 });
