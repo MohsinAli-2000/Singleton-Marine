@@ -246,6 +246,14 @@ ul {
     background: var(--black-color);
     margin: 0;
 }
+
+/* inventory card css start here */
+
+.inventory-container{
+    width: calc(100% - 128px);
+    margin: 0 auto;
+}
+
 /* Common css end here  */
 
 
