@@ -106,6 +106,14 @@ a:hover {
     padding-bottom: 120px;
 }
 
+.mb-120 {
+    margin-bottom: 120px;
+}
+
+.mt-120 {
+    margin-top: 120px;
+}
+
 p {
     margin-bottom: 0;
 }
@@ -2235,7 +2243,6 @@ footer {
 
 /* sell trade page css ends here */
 
-<<<<<<< Updated upstream
 /* reviews page css start here */
 
 .reviews-container {
@@ -2267,8 +2274,7 @@ footer {
 
 .user-name {
     font-family: 'Urbane-Semibold';
-=======
-/* contact page css starts here */
+}
 .contactHeaderSection {
     position: relative;
     padding-top: 41%;
@@ -2295,7 +2301,6 @@ footer {
 .contactHeaderTag {
     color: var(--white-color);
     font-family: Urbane;
->>>>>>> Stashed changes
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -2304,7 +2309,6 @@ footer {
     text-transform: uppercase;
 }
 
-<<<<<<< Updated upstream
 .reviews-qoutation-icon {
     width: 40px;
     height: 40px;
@@ -2328,7 +2332,7 @@ footer {
 .coverage-list li {
     list-style: none;
     font-family: 'Urbane-Light';
-=======
+}
 .contactHeaderHeading {
     color: var(--white-color);
     font-family: "Zilla Slab";
@@ -2350,12 +2354,10 @@ footer {
 .regularWhitePara {
     color: var(--white-color);
     font-family: Urbane;
->>>>>>> Stashed changes
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
     line-height: 24px;
-<<<<<<< Updated upstream
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2367,7 +2369,6 @@ footer {
 
 .marine-subtitle {
     font-family: 'Urbane-Semibold';
-=======
 }
 
 .contactHeaderTextSection {
@@ -2468,7 +2469,6 @@ footer {
 .serviceHoursHeading {
     color: var(--Black, #000);
     font-family: Urbane;
->>>>>>> Stashed changes
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -2477,7 +2477,7 @@ footer {
     text-transform: uppercase;
 }
 
-<<<<<<< Updated upstream
+
 .coverage-box {
     margin-bottom: 80px;
 }
@@ -2485,9 +2485,7 @@ footer {
 .positioned-banner {
     object-position: 50% 38%;
 }
-=======
-/* contact page css ends here */
->>>>>>> Stashed changes
+
 
 
 /* contact page css starts here */
@@ -2659,3 +2657,74 @@ footer {
 }
 
 /* contact page css ends here */
+
+
+/* parts page css start here */
+
+.glimpse-content h6 {
+    font-family: 'Urbane-Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.glimpse-content {
+    margin-top: 24px
+}
+
+.glimpse-card {
+    width: calc(100% / 4);
+}
+
+.glimpse-sec {
+    display: flex;
+    padding: 90px 76px 80px 76px;
+}
+
+.black-promotional-banner p span {
+    color: var(--gold-color);
+    font-family: 'Urbane-Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.black-promotional-banner p {
+    color: var(--white-color);
+    font-family: 'Urbane-Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.black-promotional-banner {
+    max-width: 960px;
+    margin: 0 auto;
+    background: var(--black-color);
+    padding: 28px 50px;
+}
+.parts-container-fluid {
+    width: calc(100% - 9%);
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.parts-featured-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    margin-right: 120px;
+    padding-top: 68px
+}
+.parts-featured-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 13px;
+    margin-top: 24px;
+}
