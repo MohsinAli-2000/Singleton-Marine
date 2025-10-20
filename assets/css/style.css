@@ -2577,4 +2577,18 @@ footer {
     margin-bottom: 40px;
 }
 
+.financingFormSection{
+    background-image: url("/assets/images/financing/financing-form.webp");
+    padding: 80px 0;
+    min-height: 600px;
+}
+
+.financingForm{
+    margin: 0 auto;
+    max-width: 680px;
+    border-radius: 16px;
+    background-color: #fff;
+    padding: 48px 80px;
+}
+
 /* strorage page css ends here */
