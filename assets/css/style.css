@@ -2888,7 +2888,7 @@ footer {
 
 /* blog listing page css ends here */
 
-<<<<<<< Updated upstream
+
 
 /* proshop page css start here */
 
@@ -2964,8 +2964,7 @@ footer {
 
 .location-card-content h6 {
     font-family: 'Urbane-Medium';
-=======
-/* repower page css starts here */
+}
 .outBoardsMotorsLogoWrap {
     position: absolute;
     right: 5%;
@@ -3029,26 +3028,22 @@ footer {
 .motorsCardTitle {
     color: var(--black-color);
     font-family: Urbane;
->>>>>>> Stashed changes
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
 }
 
-<<<<<<< Updated upstream
 .location-card-content p {
     font-family: 'Urbane-Light';
-=======
+}
 .motorCardPrice {
     color: var(--black-color);
     font-family: Urbane;
->>>>>>> Stashed changes
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
     line-height: 24px;
-<<<<<<< Updated upstream
     text-decoration-line: underline;
     display: flex;
     justify-content: flex-start;
@@ -3065,8 +3060,6 @@ footer {
     line-height: 24px;
     text-decoration-line: underline;
 }
-=======
-}
 
 .motorsCard {
     padding: 0 28px;
@@ -3074,4 +3067,3 @@ footer {
 }
 
 /* repower page css ends here */
->>>>>>> Stashed changes
