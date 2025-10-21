@@ -3142,14 +3142,53 @@ footer {
     line-height: 24px;
 }
 
-.staffPhoneNumber:hover{
+.staffPhoneNumber:hover {
     color: var(--black-color);
 }
 
-.staffPara{
+.staffPara {
     display: flex;
     align-items: center;
     gap: 12px;
 }
 
 /* staff page css ends here */
+
+/* special listing page css starts here */
+.specialListingHeadingWrap {
+    margin-bottom: 32px;
+}
+
+.specialListingCard {
+    padding: 0 20px;
+    margin-bottom: 32px;
+}
+
+.specialListingImageWrap {
+    position: relative;
+    padding-top: 50%;
+}
+
+.specialListingImageWrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.specialListingContentWrap {
+    margin-top: 16px;
+}
+
+.specialListingTitle {
+    color: #222;
+    font-family: Urbane;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+/* special listing page css ends here */
