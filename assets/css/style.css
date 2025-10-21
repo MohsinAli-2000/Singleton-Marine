@@ -122,7 +122,7 @@ ul {
     margin-bottom: 0;
 }
 
-.custom-form-control{
+.custom-form-control {
     width: 100%;
     border: 1px solid var(--black-color);
     font-family: 'Urbane-Light';
@@ -135,7 +135,8 @@ ul {
     outline: none;
     box-shadow: none;
 }
-.custom-form-control:focus{
+
+.custom-form-control:focus {
     border-radius: none;
     outline: none;
     box-shadow: none;
@@ -3335,7 +3336,7 @@ footer {
     line-height: 24px;
 }
 
-.specialListingBtnWrap{
+.specialListingBtnWrap {
     margin-top: 40px;
 }
 
@@ -3482,6 +3483,59 @@ footer {
     margin-right: 23px;
     margin-top: 33px;
 }
-.event-inventory-header{
+
+.event-inventory-header {
     margin: 64px 0 36px 0;
+}
+
+/* marine insurance page css start here */
+
+.coverage-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.coverage-list li {
+    list-style: none;
+    font-family: 'Urbane-Light';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coverage-list li img {
+    padding-right: 10px;
+}
+
+.marine-subtitle {
+    font-family: 'Urbane-Semibold';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.coverage-box {
+    margin-bottom: 80px;
+}
+
+.positioned-banner {
+    object-position: 50% 38%;
+}
+
+.larger-ric-text {
+    color: var(--black-color);
+    font-family: 'Urbane-Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
 }
