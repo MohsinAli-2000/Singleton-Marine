@@ -2965,6 +2965,7 @@ footer {
 .location-card-content h6 {
     font-family: 'Urbane-Medium';
 }
+
 .outBoardsMotorsLogoWrap {
     position: absolute;
     right: 5%;
@@ -3037,6 +3038,7 @@ footer {
 .location-card-content p {
     font-family: 'Urbane-Light';
 }
+
 .motorCardPrice {
     color: var(--black-color);
     font-family: Urbane;
@@ -3066,4 +3068,88 @@ footer {
     margin-bottom: 40px;
 }
 
+.ourExpertTeam {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
 /* repower page css ends here */
+
+/* staff page css starts here */
+.staffSection {
+    margin: 64px 0;
+}
+
+.staffCard {
+    padding: 0 20px;
+}
+
+.staffImageWrap {
+    position: relative;
+    padding-top: 130%;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.staffImageWrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.staffTextWrap {
+    margin-top: 24px;
+}
+
+.staffName {
+    color: var(--black-color);
+    font-family: Urbane;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.staffPosition {
+    color: var(--black-color);
+    font-family: Urbane;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.staffCardSeparator {
+    margin: 24px 0 17px 0;
+    background-color: #000;
+    height: 1px;
+}
+
+.staffPhoneNumber {
+    color: var(--black-color);
+    font-family: Urbane;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.staffPhoneNumber:hover{
+    color: var(--black-color);
+}
+
+.staffPara{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* staff page css ends here */
