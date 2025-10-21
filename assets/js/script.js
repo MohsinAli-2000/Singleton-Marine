@@ -144,3 +144,22 @@ $(document).ready(function () {
         });
     }
 });
+
+
+$(document).ready(function(){
+    $('.custom-accordion-header').click(function(){
+               
+        if ($(this).find("span.fa").hasClass("fa-angle-down")) {
+            $(".custom-accordion").find(".content-show").removeClass("content-show");
+            $(".custom-accordion").find(".fa-angle-up").removeClass("fa-angle-up").addClass("fa-angle-down")
+
+            $(this).find("span.fa").removeClass("fa-angle-down").addClass("fa-angle-up");
+            $(this).next(".custom-accordion-body").addClass("content-show")
+
+        } else if ($(this).find("span.fa").hasClass("fa-angle-up")) {
+            
+            $(this).find("span.fa").removeClass("fa-angle-up").addClass("fa-angle-down");
+            $(this).next(".custom-accordion-body").removeClass("content-show")
+        }
+    });
+});
