@@ -24,9 +24,9 @@ $(document).ready(function () {
 $(document).ready(function () {
     function getMargin() {
         var w = $(window).width();
-        if (w >= 1500) return 50;   
-        if (w >= 992) return 25; 
-        return 10; 
+        if (w >= 1500) return 50;
+        if (w >= 992) return 25;
+        return 10;
     }
 
     var owl = $('.featured-slider');
@@ -70,7 +70,7 @@ $(document).ready(function () {
         owl.trigger('next.owl.carousel');
     });
 
-        // ================================++++++++++++++++++++====================
+    // ================================++++++++++++++++++++====================
     // service page code starts here
     const activeBorder = "1px solid #1C2B4A";
     const inactiveBorder = "1px solid #D9D9D9";
@@ -104,39 +104,43 @@ $(document).ready(function () {
 });
 
 if ($('.gallery-carousel').length) {
-  $('.gallery-carousel').owlCarousel({
-    loop: true,
-    margin: 0,
-    nav: true,
-    responsive: {
-      0: {
-        items: 1
-      },
-      600: {
-        items: 3
-      },
-      1000: {
-        items: 4
-      }
-    }
-  });
+    $('.gallery-carousel').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            },
+            1000: {
+                items: 4
+            }
+        }
+    });
 }
 
 
-$(document).ready(function(){
-    $('.custom-accordion-header').click(function(){
-               
-        if ($(this).find("span.fa").hasClass("fa-angle-down")) {
-            $(".custom-accordion").find(".content-show").removeClass("content-show");
-            $(".custom-accordion").find(".fa-angle-up").removeClass("fa-angle-up").addClass("fa-angle-down")
-
-            $(this).find("span.fa").removeClass("fa-angle-down").addClass("fa-angle-up");
-            $(this).next(".custom-accordion-body").addClass("content-show")
-
-        } else if ($(this).find("span.fa").hasClass("fa-angle-up")) {
-            
-            $(this).find("span.fa").removeClass("fa-angle-up").addClass("fa-angle-down");
-            $(this).next(".custom-accordion-body").removeClass("content-show")
-        }
-    });
+$(document).ready(function () {
+    if ($('.locationTemplateCarousel').length) {
+        $('.locationTemplateCarousel').owlCarousel({
+            loop: true,
+            margin: 0,
+            nav: false,
+            dots:false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        });
+    }
 });
