@@ -2845,7 +2845,7 @@ footer {
     object-fit: cover;
 }
 
-.blogListingCard{
+.blogListingCard {
     padding: 0 20px;
     margin-bottom: 40px;
 }
@@ -2888,6 +2888,7 @@ footer {
 
 /* blog listing page css ends here */
 
+<<<<<<< Updated upstream
 
 /* proshop page css start here */
 
@@ -2963,18 +2964,91 @@ footer {
 
 .location-card-content h6 {
     font-family: 'Urbane-Medium';
+=======
+/* repower page css starts here */
+.outBoardsMotorsLogoWrap {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    max-width: 280px;
+    z-index: 3;
+}
+
+.outBoardsMotorsLogoWrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.factoryCertifiedSection {
+    max-width: 1120px;
+    margin: 0 auto;
+    border-top: 1px solid var(--black-color);
+    border-left: 1px solid var(--black-color);
+    border-right: 1px solid var(--black-color);
+    padding: 40px 50px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 64px;
+}
+
+.factoryCertifiedImageWrap {
+    flex: 0 0 80px;
+}
+
+.factoryCertifiedParaWrap {
+    max-width: 900px;
+}
+
+.outboardMotorsSection {
+    padding: 64px 0;
+}
+
+.motorsImageWrap {
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+    padding-top: 120%;
+    border: 1px solid #000;
+}
+
+.motorsImageWrap img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.motorTextWrap {
+    margin-top: 16px;
+}
+
+.motorsCardTitle {
+    color: var(--black-color);
+    font-family: Urbane;
+>>>>>>> Stashed changes
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
 }
 
+<<<<<<< Updated upstream
 .location-card-content p {
     font-family: 'Urbane-Light';
+=======
+.motorCardPrice {
+    color: var(--black-color);
+    font-family: Urbane;
+>>>>>>> Stashed changes
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
     line-height: 24px;
+<<<<<<< Updated upstream
     text-decoration-line: underline;
     display: flex;
     justify-content: flex-start;
@@ -2991,3 +3065,13 @@ footer {
     line-height: 24px;
     text-decoration-line: underline;
 }
+=======
+}
+
+.motorsCard {
+    padding: 0 28px;
+    margin-bottom: 40px;
+}
+
+/* repower page css ends here */
+>>>>>>> Stashed changes
