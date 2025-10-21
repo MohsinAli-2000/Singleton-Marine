@@ -3411,3 +3411,77 @@ footer {
     font-weight: 300;
     line-height: 24px;
 }
+
+
+/* event details page css start here */
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.event-location-wrapper {
+    max-width: calc(100% - 20%);
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+.event-location-col {
+    width: 50%;
+}
+
+.event-location-card {
+    border: 1px solid var(--black-color);
+    border-radius: 16px;
+    padding: 40px;
+    display: flex;
+}
+
+.event-time {
+    color: var(--black-color);
+    font-family: 'Urbane-Light';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.event-date {
+    color: var(--black-color);
+    font-family: 'Urbane-Light';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+    margin-bottom: 16px;
+}
+
+.event-day-list {
+    padding-left: 0;
+}
+
+.event-day-list li {
+    list-style: none;
+    color: var(--black-color);
+    font-family: 'Urbane-Light';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.event-location-card-col-1 img {
+    width: 49.141px;
+    height: auto;
+    flex-shrink: 0;
+    margin-right: 23px;
+    margin-top: 33px;
+}
+.event-inventory-header{
+    margin: 64px 0 36px 0;
+}
