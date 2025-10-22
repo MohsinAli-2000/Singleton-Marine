@@ -896,7 +896,6 @@ ul {
 /* footer css start here */
 
 /* footer start here */
-footer {}
 
 .dark-footer-wrapper {
     background: var(--black-color);
@@ -1049,6 +1048,44 @@ footer {}
     color: var(--white-color);
 }
 
+.footer-content-box {
+    display: flex;
+    gap: 120px;
+}
+
+.footer-content-card {
+    width: 50%;
+}
+
+.footer-content-card h6 {
+    color: var(--white-color);
+    font-family: 'Urbane-Medium';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    opacity: 0.7;
+}
+
+.footer-content-card p {
+    color: var(--white-color);
+    font-family: 'Urbane-Light';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    opacity: 0.7;
+}
+
+.footer-content-card p a {
+    color: var(--white-color);
+    text-decoration: underline;
+}
+.footer-separator{
+    background: var(--white-color);
+    opacity: 0.2;
+    margin: 0;
+}
 /* hom page css start here */
 
 .home-banner {
