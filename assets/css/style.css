@@ -896,7 +896,9 @@ ul {
 /* footer css start here */
 
 /* footer start here */
-footer {
+footer {}
+
+.dark-footer-wrapper {
     background: var(--black-color);
 }
 
