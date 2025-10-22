@@ -1002,19 +1002,20 @@ ul {
     font-weight: 300;
     line-height: 25px;
     letter-spacing: 0.42px;
-    padding: 10px 15px;
+    padding: 10px 0;
+    margin-right: 30px;
 }
 
 .footer-bottom ul li a {
-    color: #1E1E1E;
+    color: var(--white-color);
     text-align: center;
-    font-family: 'acumin-light';
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
     line-height: 25px;
     letter-spacing: 0.42px;
     text-decoration: underline;
+    opacity: 0.6;
 }
 
 .footer-bottom {
@@ -1081,10 +1082,63 @@ ul {
     color: var(--white-color);
     text-decoration: underline;
 }
-.footer-separator{
+
+.footer-separator {
     background: var(--white-color);
     opacity: 0.2;
     margin: 0;
+}
+
+.footer-bottom {
+    width: calc(100% - 20%);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+}
+
+.footer-bottom ul {
+    padding-left: 0;
+}
+
+.footer-bottom ul li {
+    list-style: none;
+}
+
+.footer-bottom ul li a {
+    color: var(--white-color);
+    opacity: 0.6;
+    font-family: 'Urbane-Light';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    text-decoration: none;
+}
+.footer-list-item{
+    position: relative;
+    padding-right: 30px;
+}
+.footer-list-item + .footer-list-item::after{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: -15px;
+    background: var(--white-color);
+    opacity: 0.6;
+    width: 1px;
+    height: 15px;
+    transform: translateY(-50%)
+}
+.footer-brand-link a{
+    color: var(--white-color);
+    opacity: 0.6;
+    font-family: 'Urbane-Light';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
 }
 /* hom page css start here */
 
